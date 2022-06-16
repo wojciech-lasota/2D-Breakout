@@ -1,0 +1,24 @@
+.grid {
+  position: absolute;
+  /* margin: auto; */
+  width: 560px;
+  height: 300px;
+  border: solid black 1px;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+  left: 50px;
+  bottom: 50px; /* //ancher point of each block in on the very left bottom corner */
+}
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: black;
+  left: 50px;
+  bottom: 50px; /* //ancher point of each block in on the very left bottom corner */
+}
